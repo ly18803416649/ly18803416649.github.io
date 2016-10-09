@@ -1,10 +1,334 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <title>个人首页</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/index.js"></script>
 </head>
 <body>
-	<h1>欢迎来到</h1>
+    <!-----------head----------------->
+    <div class="head-bg floor">
+        <div class="header">
+           <div class="head-nav">
+              <div class="hn-top">
+                 <h1>Hi! I'm</h1>
+                  <span>LiuYang</span>
+              </div>
+               <div class="hn-mid">
+                   One Front End Developer
+               </div>
+               <div class="hn-bot">
+                   <a href="#aboutme" class="aboutbtn">About Me</a>
+                   <a href="#portme" class="portbtn">My Portfolio</a>
+               </div>
+           </div>
+        </div>
+        <div class="head-img">
+
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="navigation">
+        <div class="nav-nav">
+            <div class="shouye search"><a href="">LiuYang</a></div>
+            <ul>
+                <li class="search"><a href="javascript:;">About Me</a></li>
+                <li class="search"><a href="javascript:;">My Skills</a></li>
+                <li class="search"><a href="javascript:;">Portfolio</a></li>
+                <li class="search"><a href="javascript:;">Experience</a></li>
+                <li class="search"><a href="javascript:;">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-----------head----------------->
+    <a name="aboutme"></a>
+    <div id="aboutMe" class="floor">
+
+       <div class="title">
+           ABOUT ME
+       </div>
+        <div class="touxiang">
+
+        </div>
+        <div class="jieshao">
+            &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;个人工作态度端正，有良好进取心，学习能力强，可快速融入团队。
+
+            熟悉W3C标准，对表现与数据分离、Web语义化等有深刻理解。 深入理解JavaScript面向对象原理、熟悉MVC的设计模式。 理解AJAX运作机制，熟练掌握JQuery等主流JS框架。 能够熟练应用HTML/CSS/JavaScript技术，开发符合W3C标准的网站前端页面。
+        </div>
+        <div class="porniu">
+            <a href="">My Portfolio</a>
+        </div>
+    </div>
+<!-------------skill-------------->
+    <div id="skill" class="floor">
+        <div class="title">MY SKILLS</div>
+        <div class="bing">
+           <!--<div class="ajax"></div>-->
+            <div class="bing-nav">
+                <div class="ajax ">
+                    <svg viewBox="0 0 32 32">
+                        <circle r="16" cx="16" cy="16" class="ajax1" />
+                    </svg>
+                    <div class="percent">80%</div>
+                </div>
+                <div class="lei">
+                    ajax
+                </div>
+            </div>
+            <div class="bing-nav zuo">
+                <div class="ajax ">
+                    <svg viewBox="0 0 32 32">
+                        <circle r="16" cx="16" cy="16" class="html" />
+                    </svg>
+                    <div class="percent">90%</div>
+                </div>
+                <div class="lei">
+                    html
+                </div>
+            </div>
+            <div class="bing-nav zuo">
+                <div class="ajax ">
+                    <svg viewBox="0 0 32 32">
+                        <circle r="16" cx="16" cy="16" class="html" />
+                    </svg>
+                    <div class="percent">90%</div>
+                </div>
+                <div class="lei">
+                    css
+                </div>
+            </div>
+            <div class="bing-nav zuo">
+                <div class="ajax ">
+                    <svg viewBox="0 0 32 32">
+                        <circle r="16" cx="16" cy="16" class="js" />
+                    </svg>
+                    <div class="percent">70%</div>
+                </div>
+                <div class="lei">
+                    js
+                </div>
+            </div>
+            <div class="bing-nav">
+                <div class="ajax ">
+                    <svg viewBox="0 0 32 32">
+                        <circle r="16" cx="16" cy="16" class="jquery" />
+                    </svg>
+                    <div class="percent">65%</div>
+                </div>
+                <div class="lei">
+                    jquery
+                </div>
+            </div>
+            <div class="bing-nav zuo">
+                <div class="ajax ">
+                    <svg viewBox="0 0 32 32">
+                        <circle r="16" cx="16" cy="16" class="h5" />
+                    </svg>
+                    <div class="percent">75%</div>
+                </div>
+                <div class="lei">
+                    h5
+                </div>
+            </div>
+            <div class="bing-nav zuo">
+                <div class="ajax ">
+                    <svg viewBox="0 0 32 32">
+                        <circle r="16" cx="16" cy="16" class="css3" />
+                    </svg>
+                    <div class="percent">85%</div>
+                </div>
+                <div class="lei">
+                    css3
+                </div>
+            </div>
+            <div class="bing-nav zuo">
+                <div class="ajax ">
+                    <svg viewBox="0 0 32 32">
+                        <circle r="16" cx="16" cy="16" class="node" />
+                    </svg>
+                    <div class="percent">65%</div>
+                </div>
+                <div class="lei">
+                   node.js
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <a name="portme"></a>
+<!------------portfolio-------------------->
+    <div id="portfolio" class="floor">
+        <div class="port-bg">
+            <div class="portbg">
+
+            </div>
+            <div class="bg-nav bg-game">
+                <div class="ss game">
+                    <a href="https://ly18803416649.github.io/wuziqi">
+                        五子棋
+                    </a>
+                </div>
+                <div class="ss music">
+                    <a href="https://ly18803416649.github.io/tanchishe">贪吃蛇</a>
+
+                </div>
+                <div class="ss music">
+                    <a href="https://ly18803416649.github.io/poker">扑克牌</a>
+
+                </div>
+            </div>
+            <div class="bg-nav bg-web">
+                <div class="ss game">
+                    <a href="https://ly18803416649.github.io/tianmao">
+                        天猫
+                    </a>
+                </div>
+                <div class="ss music">
+                    <a href="https://ly18803416649.github.io/yintai">银泰</a>
+
+                </div>
+                <div class="ss music">
+                    <a href="https://ly18803416649.github.io/huawei">华为</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="title">
+            MY PORTFOLIO
+        </div>
+        <div class="fenlei">
+           <ul>
+               <li class="l1"><a href="">All</a></li>
+               <li class="l2"><a href="">Web Design</a></li>
+               <li class="l3"><a href="">App Development</a></li>
+           </ul>
+        </div>
+        <div class="show">
+            <div class="ss game">
+                <a href="javascript:;">
+                    GAME
+                </a>
+
+            </div>
+            <div class="ss music">
+                <a href="https://ly18803416649.github.io/music">MUSIC</a>
+
+            </div>
+            <div class="ss apple">
+                <a href="https://ly18803416649.github.io/apple">APPLE</a>
+
+            </div>
+            <div class="ss web">
+                <a href="javascript:;">WEB</a>
+
+            </div>
+            <div class="ss app">
+                <a href="">APP</a>
+
+            </div>
+            <div class="ss ajax">
+                <a href="">AJAX</a>
+
+            </div>
+
+        </div>
+    </div>
+    <!------------portfolio-------------------->
+<!------------experience----------------------->
+    <div id="experience" class="floor">
+         <div class="title">
+             EXPERIENCE
+         </div>
+        <div class="exper-nav">
+           <div class="left">
+               <div class="time-nav">
+                  <h3>Creative Agency</h3>
+                   <h4>UX Developer</h4>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
+               </div>
+               <div class="time-nav leftmi">
+                   <h3>Creative Agency</h3>
+                   <h4>UX Developer</h4>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
+               </div>
+           </div>
+            <div class="middle">
+                <div class="time">
+                    2013
+                </div>
+                <div class="xian">
+
+                </div>
+                <div class="time">
+                    2015
+                </div>
+                <div class="xian">
+
+                </div>
+                <div class="time">
+                    2016
+                </div>
+            </div>
+            <div class="right">
+                <div class="time-nav mimi">
+                    <h3>Creative Agency</h3>
+                    <h4>UX Developer</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------experience----------------------->
+<!-------------contact--------------------->
+    <div id="contact" class="floor">
+       <div class="title">CONTACT ME</div>
+        <div class="location">
+            <div class="loca-nav">
+              <ul>
+                  <li>
+                      <img src="img/地址.png" alt="">
+                      <div class="zhan"></div>
+                      <p>taiyuan</p>
+                  </li>
+                  <li>
+                      <img src="img/信封.png" alt="">
+                      <div class="zhan"></div>
+                      <p>1187040770@qq.com</p>
+                  </li>
+                  <li>
+                      <img src="img/电话.png" alt="">
+                      <div class="zhan"></div>
+                      <p>18803416649</p>
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div class="message">
+            <input type="text" class="name" placeholder="name">
+            <input type="text" class="email" placeholder="email">
+        </div>
+        <div class="message2">
+            <textarea name="" id="message" cols="30" rows="10" placeholder="message"></textarea>
+            <div class="mes-but">
+                Send Message
+            </div>
+        </div>
+
+    </div>
+    <!-------------contact--------------------->
+    <div class="foot">
+       <div class="foot-xian">
+          <ul>
+              <li></li>
+              <li class="row"></li>
+          </ul>
+           <p>Powered By LiuYang</p>
+       </div>
+    </div>
 </body>
 </html>

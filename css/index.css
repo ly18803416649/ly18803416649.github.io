@@ -1,0 +1,866 @@
+p, h1, h2, h3, h4, h5, ul, li, body, h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a, em {
+  text-decoration: none;
+  font-style: normal;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  border: 0px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.head-bg {
+  width: 100%;
+  height: 100%;
+  background: url("../img/counter-bg.jpg") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.head-bg .header {
+  width: 100%;
+  height: 50%;
+  min-height: 250px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 20px 15px 20px 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.head-bg .header .head-nav {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+.head-bg .header .head-nav .hn-top {
+  width: 100%;
+  height: 50%;
+}
+
+.head-bg .header .head-nav .hn-top h1 {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 80px;
+}
+
+.head-bg .header .head-nav .hn-top span {
+  padding: 15px 10px;
+  width: auto;
+  height: auto;
+  color: #E0FF00;
+  font-size: 50px;
+  font-weight: 100;
+  border: 2px solid #ffffff;
+  margin-left: 10px;
+}
+
+.head-bg .header .head-nav .hn-mid {
+  width: 100%;
+  height: 20%;
+  color: #dddddd;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.head-bg .header .head-nav .hn-bot {
+  width: 100%;
+  height: 30%;
+  padding-top: 10px;
+}
+
+.head-bg .header .head-nav .hn-bot a {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #E0FF00;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.head-bg .header .head-nav .hn-bot a:hover {
+  background-color: #E0FF00;
+  color: #555555;
+}
+
+.head-bg .head-img {
+  width: 400px;
+  height: 400px;
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 10%;
+  background: url("../img/avatar.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.clear {
+  width: 100%;
+  clear: both;
+}
+
+.juding {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+#navigation {
+  width: 100%;
+  height: 64px;
+  background-color: #F8F8F8;
+  box-shadow: 0 0 20px #555;
+}
+
+#navigation .active {
+  background-color: #E7E7E7;
+  color: #555555;
+}
+
+#navigation .nav-nav {
+  width: 1170px;
+  max-width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#navigation .nav-nav .shouye {
+  width: auto;
+  float: left;
+  line-height: 64px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#navigation .nav-nav .shouye a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #777777;
+}
+
+#navigation .nav-nav ul {
+  float: right;
+}
+
+#navigation .nav-nav ul li {
+  float: left;
+  line-height: 64px;
+}
+
+#navigation .nav-nav ul li:hover {
+  background-color: #E7E7E7;
+  color: #555555;
+}
+
+#navigation .nav-nav ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #777777;
+  line-height: 64px;
+  font-size: 18px;
+}
+
+#navigation .nav-nav ul li a:hover {
+  color: #555555;
+}
+
+#aboutMe {
+  width: 100%;
+  height: auto;
+  background-color: #F8F8F8;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+#aboutMe .title {
+  width: 100%;
+  height: 80px;
+  color: #008EAC;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#aboutMe .touxiang {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid #008EAC;
+  margin: 0 auto;
+  background: url("../img/7777.jpg") no-repeat right center;
+  background-size: cover;
+}
+
+#aboutMe .jieshao {
+  width: 60%;
+  height: auto;
+  font-size: 14px;
+  margin: 0 auto;
+  padding: 30px 10px;
+  color: #777777;
+  line-height: 28px;
+}
+
+#aboutMe .porniu {
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#aboutMe .porniu a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px 15px;
+  text-align: center;
+  color: #008EAC;
+  line-height: 1.2em;
+  border-radius: 20px;
+  border: 1px solid #008EAC;
+}
+
+#aboutMe .porniu a:hover {
+  color: #F8F8F8;
+  background-color: #008EAC;
+}
+
+.title {
+  width: 100%;
+  height: 80px;
+  color: #008EAC;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#skill {
+  width: 100%;
+  height: auto;
+  background: url("../img/services-bg.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+#skill .bing {
+  width: 1170px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#skill .bing .bing-nav {
+  width: 200px;
+  height: 250px;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#skill .bing .ajax {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+#skill .bing .ajax .percent {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  color: #008EAC;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#skill .bing .lei {
+  width: 100px;
+  height: 40px;
+  margin: 0 auto;
+  color: #008EAC;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  border: 2px solid #555;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+#skill .bing .zuo {
+  margin-left: 123px;
+}
+
+#skill .bing svg {
+  transform: rotate(-90deg);
+  background: transparent;
+  border-radius: 50%;
+  border: 10px solid #ffffff;
+  box-sizing: border-box;
+}
+
+#skill .bing circle {
+  fill: transparent;
+  stroke: #2C3E50;
+  stroke-width: 5;
+  stroke-dasharray: 0 100;
+}
+
+#skill .bing .ajax1 {
+  animation: fillup1 2s linear 1 both;
+}
+
+@keyframes fillup1 {
+  to {
+    stroke-dasharray: 80 100;
+  }
+}
+
+#skill .bing .html {
+  animation: fillup2 2s linear 1 both;
+}
+
+@keyframes fillup2 {
+  to {
+    stroke-dasharray: 90 100;
+  }
+}
+
+#skill .bing .js {
+  animation: fillup3 2s linear 1 both;
+}
+
+@keyframes fillup3 {
+  to {
+    stroke-dasharray: 70 100;
+  }
+}
+
+#skill .bing .jquery {
+  animation: fillup4 2s linear 1 both;
+}
+
+@keyframes fillup4 {
+  to {
+    stroke-dasharray: 65 100;
+  }
+}
+
+#skill .bing .h5 {
+  animation: fillup5 2s linear 1 both;
+}
+
+@keyframes fillup5 {
+  to {
+    stroke-dasharray: 75 100;
+  }
+}
+
+#skill .bing .css3 {
+  animation: fillup6 2s linear 1 both;
+}
+
+@keyframes fillup6 {
+  to {
+    stroke-dasharray: 85 100;
+  }
+}
+
+#skill .bing .node {
+  animation: fillup7 2s linear 1 both;
+}
+
+@keyframes fillup7 {
+  to {
+    stroke-dasharray: 65 100;
+  }
+}
+
+#portfolio {
+  width: 100%;
+  height: auto;
+  background: url("../img/16.png");
+  padding-top: 80px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+#portfolio .port-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 30;
+  display: none;
+}
+
+#portfolio .port-bg .bg-nav {
+  width: 1140px;
+  height: 285px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 33;
+  overflow: hidden;
+  display: none;
+}
+
+#portfolio .portbg {
+  width: 100%;
+  height: 100%;
+  background-color: #555;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 30;
+}
+
+#portfolio .fenlei {
+  width: 100%;
+  height: 40px;
+}
+
+#portfolio .fenlei ul {
+  width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+#portfolio .fenlei ul li {
+  float: left;
+  margin: 0 auto;
+}
+
+#portfolio .fenlei ul li a {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 36px;
+}
+
+#portfolio .fenlei ul .l1 {
+  border: 2px solid #E89520;
+}
+
+#portfolio .fenlei ul .l1 a:hover {
+  background-color: #E89520;
+}
+
+#portfolio .fenlei ul .l2 {
+  border: 2px solid #C9302C;
+  margin-left: 10px;
+}
+
+#portfolio .fenlei ul .l2 a:hover {
+  background-color: #C9302C;
+}
+
+#portfolio .fenlei ul .l3 {
+  border: 2px solid #31B0D5;
+  margin-left: 10px;
+}
+
+#portfolio .fenlei ul .l3 a:hover {
+  background-color: #31B0D5;
+}
+
+#portfolio .show {
+  width: 1140px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#portfolio .zuo {
+  margin-left: 43px;
+}
+
+#portfolio .ss {
+  width: 380px;
+  height: 285px;
+  border: 1px solid #ffffff;
+  margin-top: 20px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+
+#portfolio .ss a {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: #2c3f52;
+  opacity: 0.8;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  line-height: 285px;
+  text-align: center;
+  color: #C6F1F1;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#portfolio .ss .slide {
+  display: block;
+  animation: slide 1s ease 1 both;
+}
+
+@keyframes slide {
+  to {
+    top: 0;
+  }
+}
+
+#portfolio .game {
+  background: url("../img/game.jpg") no-repeat center center;
+}
+
+#portfolio .music {
+  background: url("../img/music.jpg") no-repeat center center;
+}
+
+#portfolio .apple {
+  background: url("../img/apple.jpg") no-repeat center center;
+}
+
+#portfolio .web {
+  background: url("../img/web.jpg") no-repeat center center;
+}
+
+#portfolio .app {
+  background: url("../img/app.jpg") no-repeat center center;
+}
+
+#portfolio .ajax {
+  background: url("../img/ajax.jpg") no-repeat center center;
+}
+
+/***********portfolio******************/
+/**********experience*******************/
+#experience {
+  width: 100%;
+  height: auto;
+  background-color: #F8F8F8;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+#experience .exper-nav {
+  width: 1170px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#experience .exper-nav .left {
+  width: 40%;
+  height: auto;
+  float: left;
+  padding: 20px 20px;
+}
+
+#experience .exper-nav .time-nav {
+  width: 100%;
+  height: auto;
+  text-align: right;
+}
+
+#experience .exper-nav .time-nav h3, #experience .exper-nav .time-nav h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 1.1;
+  color: #616E7C;
+  font-family: inherit;
+}
+
+#experience .exper-nav .time-nav h4 {
+  color: #E87E66;
+}
+
+#experience .exper-nav .time-nav p {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 1.1;
+  color: #616E7C;
+  font-family: inherit;
+}
+
+#experience .exper-nav .middle {
+  width: 20%;
+  height: auto;
+  float: left;
+}
+
+#experience .exper-nav .middle .time {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #F3F3F3;
+  background-color: #ffffff;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  line-height: 100px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #E87E66;
+  font-family: inherit;
+}
+
+#experience .exper-nav .middle .xian {
+  width: 5px;
+  height: 150px;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #CCCCCC;
+}
+
+#experience .exper-nav .right {
+  width: 40%;
+  height: auto;
+  float: left;
+  padding: 20px 20px;
+}
+
+#experience .exper-nav .mimi {
+  margin-top: 250px;
+  text-align: left;
+}
+
+#experience .exper-nav .leftmi {
+  margin-top: 350px;
+}
+
+/**********experience*******************/
+/***********contact*****************/
+#contact {
+  width: 100%;
+  height: auto;
+  background: url("../img/contact-bg.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+#contact .location {
+  width: 1170px;
+  height: auto;
+  margin: 0 auto;
+}
+
+#contact .location .loca-nav ul {
+  overflow: hidden;
+  width: 600px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+#contact .location .loca-nav ul li {
+  float: left;
+  width: 200px;
+  height: 60px;
+  position: relative;
+  color: #F4F5F6;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+#contact .location .loca-nav ul li .zhan {
+  width: 100%;
+  height: 30px;
+}
+
+#contact .location .loca-nav ul li img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#contact .message {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+#contact .message .name {
+  display: block;
+  width: 40%;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #2c3e50;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: none;
+  border: 0;
+  border-radius: 2px;
+  float: left;
+}
+
+#contact .message .email {
+  display: block;
+  width: 40%;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #2c3e50;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: none;
+  border: 0;
+  border-radius: 2px;
+  float: left;
+  margin-left: 20%;
+}
+
+#contact .message .clear {
+  clear: both;
+}
+
+#contact .message2 {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  position: relative;
+}
+
+#contact .message2 #message {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #2c3e50;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: none;
+  border: 0;
+  border-radius: 2px;
+}
+
+#contact .message2 .mes-but {
+  width: 20%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: 2px solid #A9B7B7;
+  color: #A9B7B7;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#contact .message2 .mes-but:hover {
+  border: 2px solid #E89520;
+  color: #E89520;
+}
+
+/***********contact*****************/
+.foot {
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: -5px 5px 50px #000 inset;
+  padding: 30px 0;
+}
+
+.foot .foot-xian {
+  width: 60%;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.foot .foot-xian ul {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.foot .foot-xian ul li {
+  background-color: #DADADA;
+  float: left;
+  width: 48%;
+  height: 1px;
+}
+
+.foot .foot-xian ul .row {
+  margin-left: 4%;
+}
+
+.foot .foot-xian p {
+  color: #DADADA;
+  text-align: center;
+  line-height: 1.2em;
+}
